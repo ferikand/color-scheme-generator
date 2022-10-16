@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Scheme Generator</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <div class="picker"></div>
         <form action="" id="scheme">
-          <select name="" id="">
+          <input type="color" class="picker" />
+
+          <select name="" id="scheme-sel">
             <option value="monochrome">Monochrome</option>
             <option value="monochrome-dark">Monochrome-dark</option>
             <option value="monochrome-light">Monochrome-light</option>
@@ -24,11 +26,11 @@
         </form>
       </div>
       <div class="colors">
-        <div class="color"></div>
-        <div class="color"></div>
-        <div class="color"></div>
-        <div class="color"></div>
-        <div class="color"></div>
+        <div class="color red"></div>
+        <div class="color black"></div>
+        <div class="color yellow"></div>
+        <div class="color green"></div>
+        <div class="color blue"></div>
       </div>
       <div class="footer">
         <div class="color-def"></div>
@@ -38,5 +40,6 @@
         <div class="color-def"></div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

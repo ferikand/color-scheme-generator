@@ -1,0 +1,50 @@
+body {
+  background: #1c1c1c;
+  box-sizing: border-box !important;
+}
+
+.container {
+  background: #1f2937;
+  max-width: 34.375rem;
+  border: 1px white;
+  margin: 5rem auto;
+  position: relative;
+}
+.container .header {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  padding: 1.4rem;
+}
+.container .header form#scheme {
+  display: flex;
+  align-items: center;
+}
+.container .header form#scheme select,
+.container .header form#scheme button {
+  height: 43px;
+}
+.container .header form#scheme select {
+  width: 19.5rem;
+  margin: 0;
+}
+.container .header form#scheme .picker {
+  height: 43px;
+  width: 3.8125rem;
+}
+.container .colors {
+  height: 550px;
+  display: flex;
+}
+.container .colors .color {
+  flex-grow: 1;
+}
+.container .footer {
+  padding: 11px 27px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

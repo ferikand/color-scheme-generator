@@ -1,0 +1,55 @@
+body {
+  background: #1c1c1c;
+  box-sizing: border-box !important;
+}
+
+.container {
+  background: #1f2937;
+  max-width: 34.375rem;
+  border: 1px white;
+  margin: 5rem auto;
+  position: relative;
+
+  .header {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    padding: 1.4rem;
+
+    form#scheme {
+      display: flex;
+      align-items: center;
+
+      select,
+      button {
+        height: 43px;
+      }
+      select {
+        width: 19.5rem;
+        margin: 0;
+      }
+
+      .picker {
+        height: 43px;
+        width: 3.8125rem;
+      }
+    }
+  }
+
+  .colors {
+    height: 550px;
+    display: flex;
+
+    .color {
+      flex-grow: 1;
+    }
+  }
+
+  .footer {
+    padding: 11px 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+}
